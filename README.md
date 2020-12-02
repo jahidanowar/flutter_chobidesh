@@ -1,6 +1,9 @@
-# chobidesh
+# Flutter CobiDesh
 
-A new Flutter project.
+Simple Flutter Project to demonstarte Network Calls, Page Routing , Navigation and Using Custom Fonts.
+
+## Wtach The Video Tutorial (Language: Bangla)
+[![Flutter Course in Bangla](https://i.ibb.co/XZd3WkS/flutter-prohect-bangla.png)](https://www.youtube.com/watch?v=BlTgaznwl3w)
 
 ## Getting Started
 
