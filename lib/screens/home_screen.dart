@@ -32,6 +32,8 @@ class _HomeScreeenState extends State<HomeScreeen> {
               itemCount: images.length,
               itemBuilder: (BuildContext context, int index) => InkWell(
                 onTap: () {
+                  // Goto new Route
+                  print("Going to new route 🐱‍🏍");
                   _nextScreen(images[index]['urls']['regular']);
                 },
                 child: ClipRRect(
@@ -46,9 +48,11 @@ class _HomeScreeenState extends State<HomeScreeen> {
                   StaggeredTile.count(2, i.isEven ? 2 : 3),
               mainAxisSpacing: 8.0,
               crossAxisSpacing: 8.0,
-            ));
+            ),
+          );
   }
 
+// Load images From API
   _loadImages() async {
     var response = await Api().getData();
     setState(() {
@@ -56,8 +60,13 @@ class _HomeScreeenState extends State<HomeScreeen> {
     });
   }
 
+  
   _nextScreen(String imagePath) {
     Navigator.push(
-        context, MaterialPageRoute(builder: (context) => DetailsScreen(imagePath: imagePath,)));
+      context,
+      MaterialPageRoute(
+        builder: (context) => DetailsScreen(imagePath:imagePath)
+      ),
+    );
   }
 }
