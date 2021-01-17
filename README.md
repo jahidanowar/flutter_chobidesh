@@ -3,7 +3,7 @@
 Simple Flutter Project to demonstarte Network Calls, Page Routing , Navigation and Using Custom Fonts.
 
 ## Wtach The Video Tutorial (Language: Bangla)
-[![Flutter Course in Bangla](https://i.ibb.co/XZd3WkS/flutter-prohect-bangla.png)](https://www.youtube.com/watch?v=BlTgaznwl3w)
+[![Flutter Course in Bangla](https://i.ibb.co/XZd3WkS/flutter-prohect-bangla.png)](https://www.youtube.com/watch?v=eZroAkculro)
 
 ## For more Projects SubScribe
 
